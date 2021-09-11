@@ -16,6 +16,13 @@ function printSum1to255(){
     }
 }
 // 3. Find and Print Max : Print the largest element in a given array
-function printArrayMax(){
-
+function printArrayMax(arr){
+    var max = arr[0];
+    for(var x = 0; x < arr.length; x++){
+        if (arr[x] > max){
+            max = arr[x];
+        }
+    }
+    console.log(max)
 }
+// 4. Print Odds 1-255
