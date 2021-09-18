@@ -26,3 +26,10 @@ function printArrayMax(arr){
     console.log(max)
 }
 // 4. Print Odds 1-255
+function printOdds(){
+    for(var x = 1; x<=255; x++){
+        if(x%2==1){
+            console.log(x);
+        }
+    }
+}
