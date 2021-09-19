@@ -37,4 +37,14 @@ function printOdds(){
 }
 
 // 5. Greater than Y
-
+function greaterY(arr, y){
+    var sum = 0
+    for(var x = 0; x < arr.length; x++){
+        if(arr[x] > y){
+            sum++
+            console.log(arr[x])
+        }
+    }
+    console.log("The total number of values greater than " + y + " is " + sum)
+}
+greaterY([10,20,30,15,5,9,18],17)
