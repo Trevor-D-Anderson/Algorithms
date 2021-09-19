@@ -47,4 +47,24 @@ function greaterY(arr, y){
     }
     console.log("The total number of values greater than " + y + " is " + sum)
 }
-greaterY([10,20,30,15,5,9,18],17)
+// greaterY([10,20,30,15,5,9,18],17)
+
+// 6. Max, Min, Average
+function maxMinAverage(arr){
+    var max = arr[0]
+    var min = arr[0]
+    var ave = 0
+    for(var x = 0; x < arr.length; x++){
+        ave = ave+arr[x]
+        if(arr[x] > max){
+            max = arr[x]
+        } else if(arr[x] < min){
+            min = arr[x]
+        }
+    }
+    console.log(max)
+    console.log(min)
+    console.log(ave/arr.length)
+}
+// maxMinAverage([10,7,52,16,6])
+
