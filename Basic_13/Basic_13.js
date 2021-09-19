@@ -25,11 +25,16 @@ function printArrayMax(arr){
     }
     console.log(max)
 }
-// 4. Print Odds 1-255
+// 4. Array with Odds 1-255
 function printOdds(){
+    var arr = []
     for(var x = 1; x<=255; x++){
         if(x%2==1){
-            console.log(x);
+            arr.push(x)
         }
     }
+    console.log(arr)
 }
+
+// 5. Greater than Y
+
