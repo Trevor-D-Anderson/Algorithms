@@ -25,4 +25,16 @@ function printSequence(){
         console.log(arr[x])
     }
 }
-printSequence()
+// printSequence()
+
+// 4. Sigma
+function sigma(){
+    var sum = 0
+    for(var x = 0; x <=100; x++){
+        sum = sum + x
+    }
+    console.log(sum)
+}
+// sigma()
+
+// 5. Factorial
