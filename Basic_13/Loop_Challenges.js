@@ -9,3 +9,13 @@ function printOdds1to20(){
 // printOdds1to20()
 
 // 2. Decreasing Multiples of 3
+function decreasingMultiples(){
+    for(var x = 100; x>0; x--){
+        if(x%3==0){
+            console.log(x)
+        }
+    }
+}
+// decreasingMultiples()
+
+// 3. Print the sequence
