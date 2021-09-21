@@ -19,3 +19,10 @@ function decreasingMultiples(){
 // decreasingMultiples()
 
 // 3. Print the sequence
+function printSequence(){
+    var arr = [4,2.5,1,-0.5,-2,-3.5]
+    for(var x = 0; x < arr.length; x++){
+        console.log(arr[x])
+    }
+}
+printSequence()
