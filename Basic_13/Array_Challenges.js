@@ -36,7 +36,7 @@ function betterThanAverage(arr) {
     var sum = 0;
     // calculate the average
     var count = 0
-    // count how many values are greated than the average
+    // count how many values are greater than the average
     for(var x = 0; x < arr.length; x++){
         sum = sum + arr[x]
     }
